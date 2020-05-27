@@ -30,4 +30,5 @@ class String
     string = self.squeeze(”.”) 
     string = string.squeeze(”!”) 
     string.split(/[$.|?|!]/).count   
+  end
 end
