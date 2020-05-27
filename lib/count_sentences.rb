@@ -27,8 +27,9 @@ class String
   end
 
   def count_sentences
+  #removes spaces
     string = self.squeeze(”.”) 
     string = string.squeeze(”!”) 
-    string.split(/[$.|?|!]/).count   
+    string.split(/[$.|?|!]/).count
   end
 end
