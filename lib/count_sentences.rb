@@ -27,6 +27,5 @@ class String
   end
 
   def count_sentences
-    self.split.reject {|x| x.empty?}.size
-  end
+def count_sentences string = self.squeeze(”.”) string = string.squeeze(”!”) string.split(/[$.|?|!]/).count end  end
 end
